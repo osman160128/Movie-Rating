@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#110F0F"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="10dp">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/MovieCoverRecylerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Populer"
+                android:textSize="18dp"
+                android:layout_marginTop="5dp"
+                android:textColor="#ffffff"
+                />
+            <TextView
+                android:id="@+id/showAllPopulerMovie"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Show all"
+                android:layout_marginTop="8dp"
+                android:textColor="#ffffff"
+                android:layout_alignParentRight="true"
+                android:textSize="12dp"
+                android:layout_marginRight="14dp"
+
+                />
+        </RelativeLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/PopulerMovieRecylerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Top Rated Movie"
+                android:textSize="18dp"
+                android:layout_marginTop="5dp"
+                android:textColor="#ffffff"
+                />
+            <TextView
+                android:id="@+id/showAllTopRated"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Show all"
+                android:layout_marginTop="8dp"
+                android:textColor="#ffffff"
+                android:layout_alignParentRight="true"
+                android:textSize="12dp"
+                android:layout_marginRight="14dp"
+
+                />
+        </RelativeLayout>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/TopRateMovieRecylerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Up Coming movie"
+                android:textSize="18dp"
+                android:layout_marginTop="5dp"
+                android:textColor="#ffffff"
+                />
+            <TextView
+                android:id="@+id/showAllUpComing"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Show all"
+                android:layout_marginTop="8dp"
+                android:textColor="#ffffff"
+                android:layout_alignParentRight="true"
+                android:textSize="12dp"
+                android:layout_marginRight="14dp"
+
+                />
+        </RelativeLayout>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/UpComingMovieRecylerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    </LinearLayout>
+</ScrollView>
