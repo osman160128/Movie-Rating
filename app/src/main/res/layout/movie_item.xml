@@ -52,7 +52,6 @@
                             android:id="@+id/movie_rating"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="9.0"
                             />
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
@@ -63,7 +62,6 @@
         android:id="@+id/movie_name"
         android:layout_width="140dp"
         android:layout_height="wrap_content"
-        android:text="Movie Name"
         android:textSize="15dp"
         android:textStyle="bold"
         android:textColor="#ffffff"/>

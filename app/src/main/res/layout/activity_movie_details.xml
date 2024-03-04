@@ -41,7 +41,7 @@
                 android:textStyle="bold"
                 android:textSize="30dp"
                 android:textColor="#ffffff"
-                android:text="osanfgasdf"
+
                 />
             <TextView
                 android:id="@+id/movie_detials_type"
@@ -82,7 +82,7 @@
                     android:id="@+id/movie_details_calander"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="12/12/12"
+
                     android:textColor="#ffffff"
                     android:textSize="18dp"
                     />
@@ -106,7 +106,7 @@
                     android:id="@+id/movie_details_duratin"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="12/12/12"
+
                     android:textColor="#ffffff"
                     android:textSize="18dp"
                     />
@@ -129,7 +129,6 @@
                     android:id="@+id/movie_details_language"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="12/12/12"
                     android:textColor="#ffffff"
                     android:textSize="18dp"
                     />
@@ -142,25 +141,9 @@
             android:id="@+id/movie_details_over_view"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="twwret"
             android:textColor="#ffffff"
             android:textSize="15dp"
             android:layout_marginTop="10dp"
-            />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textColor="#ffffff"
-            android:textSize="27dp"
-            android:text="Video"
-            android:layout_marginTop="10dp"
-            />
-
-        <androidx.recyclerview.widget.RecyclerView
-            android:id="@+id/movie_details_video"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
             />
 
         <TextView
